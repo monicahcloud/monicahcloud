@@ -4,8 +4,7 @@ import NavBar from "./NavBar";
 
 function DesignProjects() {
   return (
-    <>
-      <NavBar />
+    
       <div id="content">
         <main className="home">
           <div className="vizbox-container">
@@ -35,7 +34,7 @@ function DesignProjects() {
           </div>
         </main>
       </div>
-    </>
+    
   );
 }
 

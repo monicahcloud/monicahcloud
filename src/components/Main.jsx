@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import design from "./../images/web_design.png";
 import developer from "./../images/web_dev.png";
-import DesignProjects from "./DesignProjects";
-import DeveloperProjects from "./DeveloperProjects";
 
 const Main = () => {
 
@@ -32,7 +30,7 @@ const Main = () => {
                 src={developer}
                 alt="web developer"
               />
-              <h3>Design Projects</h3>
+              <h3>Developer Projects</h3>
             </Link>
           </div>
         </div>

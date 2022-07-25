@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import NavBar from "./NavBar";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import hireme from "./../images/Hire-Me.jpg";
@@ -31,8 +30,7 @@ function Contact() {
   }
 
   return (
-    <>
-      <NavBar />
+    <div>
       <section id="contact" className="">
         <img src={hireme} alt="hire" className="img center" />
         <p className="center description2">
@@ -41,7 +39,6 @@ function Contact() {
           to you.
         </p>
         <Form
-          netlify
           name="contact"
           onSubmit={handleSubmit}
           className="grid-container "
@@ -114,7 +111,7 @@ function Contact() {
           </div>
         </Form>
       </section>
-    </>
+    </div>
   );
 }
 

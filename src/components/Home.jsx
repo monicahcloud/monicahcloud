@@ -30,7 +30,6 @@ function Home() {
       </div>
       <Skills />
       <Main />
-      <Footer />
     </div>
   );
 }

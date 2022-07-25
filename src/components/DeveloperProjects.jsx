@@ -1,11 +1,9 @@
 import React from 'react';
-import NavBar from './NavBar';
 import { developerProjects } from "./../data/data";
 
 function DeveloperProjects() {
   return (
     <>
-      <NavBar />
       <div id="content">
         <main className="home">
           <div className="vizbox-container">
